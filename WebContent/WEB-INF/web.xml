@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>LNMIITAdmissionPortal</display-name>
+  <servlet>
+    <display-name>controller.UserController</display-name>
+    <servlet-name>controller.UserController</servlet-name>
+ 	<servlet-class>controller.UserController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.UserController</servlet-name>
+    <url-pattern>/controller.UserController</url-pattern>
+ </servlet-mapping>
+  <servlet>
+    <display-name>controller.LoginController</display-name>
+    <servlet-name>controller.LoginController</servlet-name>
+ 	<servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.LoginController</servlet-name>
+    <url-pattern>/controller.LoginController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <display-name>controller.AdministratorController</display-name>
+    <servlet-name>controller.AdministratorController</servlet-name>
+ 	<servlet-class>controller.AdministratorController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.AdministratorController</servlet-name>
+    <url-pattern>/controller.AdministratorController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>controller.ApplicantInfoController</display-name>
+    <servlet-name>controller.ApplicantInfoController</servlet-name>
+    <servlet-class>controller.ApplicantInfoController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.ApplicantInfoController</servlet-name>
+    <url-pattern>/controller.ApplicantInfoController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>controller.MasterController</display-name>
+    <servlet-name>controller.MasterController</servlet-name>
+    <servlet-class>controller.MasterController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.MasterController</servlet-name>
+    <url-pattern>/controller.MasterController</url-pattern>
+  </servlet-mapping> 
+
+  <servlet>
+    <display-name>controller.ViewerController</display-name>
+    <servlet-name>controller.ViewerController</servlet-name>
+    <servlet-class>controller.ViewerController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.ViewerController</servlet-name>
+    <url-pattern>/controller.ViewerController</url-pattern>
+  </servlet-mapping> 
+  
+     <servlet>
+    <display-name>controller.RviewerController</display-name>
+    <servlet-name>controller.RviewerController</servlet-name>
+    <servlet-class>controller.RviewerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.RviewerController</servlet-name>
+    <url-pattern>/controller.RviewerController</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <display-name>controller.MviewerController</display-name>
+    <servlet-name>controller.MviewerController</servlet-name>
+    <servlet-class>controller.MviewerController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.MviewerController</servlet-name>
+    <url-pattern>/controller.MviewerController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>controller.CounsellingController</display-name>
+    <servlet-name>controller.CounsellingController</servlet-name>
+    <servlet-class>controller.CounsellingController</servlet-class>
+ 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.CounsellingController</servlet-name>
+    <url-pattern>/controller.CounsellingController</url-pattern>
+  </servlet-mapping> 
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
