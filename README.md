@@ -1,2 +1,8 @@
 # College-Admission-portal
-Project Developed by me to simulate the admission process of my college using Servlets,Jsp and DB2.
+Project Developed to simulate the admission process of our college using Servlets,Jsp and DB2.
+Contributors : 
+Vishwajeet Srivastava ( https://github.com/vjs3 )
+Sneha Srivastava
+Monika Agarwal
+Anshika Mittal
+Palansh Agarwal ( Me )
